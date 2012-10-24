@@ -2,7 +2,7 @@ require 'propeller'
 
 module RstatUs
   module Foo
-    def hello
+    def self.hello
       puts "Hello World"
     end
   end
